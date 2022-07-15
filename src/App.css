@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+.Poster-Container {
+  /* border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap; */
+
+  gap: 10px;
+
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 
 .Poster {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -16,7 +28,7 @@
 
 
   margin: auto;
-  margin-top: 10%;
+  margin-bottom: 10px;
 
   height: 500px;
   width: 300px;
@@ -47,7 +59,7 @@
   margin: auto;
   margin-top: 10%;
 
-  height: 500px;
+  height: 100%;
   width: 300px;
 
   transition: .5s;
@@ -59,6 +71,20 @@
   font-family: "";
   font-size: "";
   font-weight: "";
+  
+  text-align: center;
+
+  margin: auto;
+  margin-top: 0px;
+}
+
+#Film-Sub-Title {
+  color: black;
+  font-family: "";
+  font-size: "";
+  font-weight: "";
+  
+  text-align: center;
 
   margin: auto;
   margin-top: 0px;
@@ -69,6 +95,8 @@
   font-family: "";
   font-size: "";
   font-weight: "";
+
+  text-align: center;
 
   margin: auto;
   margin-top: 0px;
