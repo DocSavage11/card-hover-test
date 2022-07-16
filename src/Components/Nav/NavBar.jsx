@@ -3,27 +3,40 @@ import './Nav.css'
 
 const NavBar = () => {
 
-  const [show, setShow] = useState(true);
+  // const [show, setShow] = useState(true);
   
-  const navSlide = () => {
-    if(window.scrollY > 80) {
-      setShow(false)
+  // const navSlide = () => {
+  //   if(window.scrollY > 80) {
+  //     setShow(false)
+  //   } else {
+  //     setShow(true)
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   window.addEventListener('scroll', navSlide)
+  
+  //   return () => {
+  //     window.addEventListener('scroll', navSlide)
+  //   }
+  // }, [])
+
+  const [hideNav, setHideNav] = useState(false);
+
+
+  const NavBarHide = () => {
+    if (window.scrollY >= 80) {
+      setHideNav(true)
     } else {
-      setShow(true)
+      setHideNav(false)
     }
   }
 
-  useEffect(() => {
-    window.addEventListener('scroll', navSlide)
-  
-    return () => {
-      window.addEventListener('scroll', navSlide)
-    }
-  }, [])
+  window.addEventListener("scroll", NavBarHide)
   
 
   return (
-    <div className={`Nav-Bar ${show} && 'hide`}>
+    <div className={hideNav ? "Nav-Bar hide" : "Nav-Bar" }>
         <img src={require('../../Assest/Logo/Logo.jpg')} alt="" id="Logo" />
 
         <ul className="Nav-Link-Container">

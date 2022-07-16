@@ -10,7 +10,7 @@ ul {
 }
 
 .hide {
-    display: none;
+    transform: translateY(-100%);
 }
 
 .Nav-Bar {
@@ -30,7 +30,7 @@ ul {
     width: 100%;
 
     transition-timing-function: ease-in;
-    transition: .5s;
+    transition: .6s;
 
     z-index: 1;
 }
