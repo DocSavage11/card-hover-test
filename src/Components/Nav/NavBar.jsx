@@ -1,9 +1,8 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import './Nav.css'
 
 const NavBar = () => {
   const [hideNav, setHideNav] = useState(false);
-  const [showNav, setShowNav] = useState(false);
 
 
   const NavBarHide = () => {
