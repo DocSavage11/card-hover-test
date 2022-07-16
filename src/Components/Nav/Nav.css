@@ -24,7 +24,7 @@ ul {
     background-color: black;
 
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 0;
 
     padding: 10px;

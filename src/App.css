@@ -4,6 +4,37 @@
   box-sizing: border-box;
 }
 
+.App {
+  position: relative;
+}
+
+
+
+
+.Button-Container {
+  position: fixed;
+
+  bottom: 50px;
+  right: 50px;
+
+  height: 30px;
+  width: 30px;
+
+  transition: .5s;
+  transition-timing-function: ease-in;
+  transform: translateX(300%);
+}
+
+.Show-Button {
+  transform: translateX(0%);
+}
+
+#BTTBI {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
 .Poster-Container {
   /* border: 1px solid black;
   display: flex;

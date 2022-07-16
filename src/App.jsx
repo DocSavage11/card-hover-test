@@ -1,11 +1,12 @@
 import './App.css';
 import Poster from './Components/Poster';
 import NavBar from './Components/Nav/NavBar'
+import BackToTopButton from './Components/BackToTopButton';
 
 
 function App() {
   return (
-    <>
+    <div className='App'>
       <NavBar/>
       <div className="Poster-Container">
           <Poster
@@ -40,7 +41,9 @@ function App() {
           description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel animi magni, quidem asperiores itaque numquam ab pariatur aliquid ipsum quas maxime mollitia quasi! Cupiditate tempora facere tenetur dolores asperiores. Necessitatibus."}
         />
       </div>
-    </>
+
+      <BackToTopButton/>
+    </div>
   );
 }
 
