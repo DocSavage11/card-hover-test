@@ -2,26 +2,8 @@ import React, {useState, useEffect} from 'react'
 import './Nav.css'
 
 const NavBar = () => {
-
-  // const [show, setShow] = useState(true);
-  
-  // const navSlide = () => {
-  //   if(window.scrollY > 80) {
-  //     setShow(false)
-  //   } else {
-  //     setShow(true)
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', navSlide)
-  
-  //   return () => {
-  //     window.addEventListener('scroll', navSlide)
-  //   }
-  // }, [])
-
   const [hideNav, setHideNav] = useState(false);
+  const [showNav, setShowNav] = useState(false);
 
 
   const NavBarHide = () => {

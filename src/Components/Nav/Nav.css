@@ -13,12 +13,18 @@ ul {
     transform: translateY(-100%);
 }
 
+.show {
+    transform: translateY(100%);
+}
+
+
+
 .Nav-Bar {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: black;
 
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 0;
 
     padding: 10px;
@@ -53,4 +59,9 @@ ul {
 
     margin: auto;
     margin-right: 0px;
+}
+
+#Mobile-Menu-Icon {
+    margin: auto;
+    margin-right: 10px;
 }
