@@ -12,6 +12,7 @@ function Poster(props) {
 
             <p id="Film-Description">{props.description}</p>
             <p id="Film-Description">{props.description}</p>
+            <p id="Film-Description">{props.description}</p>
         </div>
     </div>
   )
