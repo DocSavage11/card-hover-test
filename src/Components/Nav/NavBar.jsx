@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './Nav.css'
-import SideBar from '../SideBar';
 
 const NavBar = () => {
   const [hideNav, setHideNav] = useState(false);
