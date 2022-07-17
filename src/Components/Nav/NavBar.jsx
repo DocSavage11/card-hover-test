@@ -3,7 +3,7 @@ import './Nav.css'
 
 const NavBar = () => {
   const [hideNav, setHideNav] = useState(false);
-  const [reveal, setReveal] = useState(false);
+  const [reveal, setReveal] = useState(true);
 
 
   const NavBarHide = () => {
