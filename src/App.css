@@ -8,6 +8,39 @@
   position: relative;
 }
 
+.Side-Show {
+  transform: translate(0%);
+}
+
+.Side-Hide {
+  transform: translate(100%);
+}
+
+
+.Side-Bar {
+  border: 1px solid black;
+  background-color: blanchedalmond;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+
+  z-index: 1;
+
+  height: 100vh;
+  width: 50%;
+
+  transition: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.Side-Bar > h1 {
+  cursor: pointer;
+}
 
 
 

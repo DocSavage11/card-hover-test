@@ -2,6 +2,7 @@ import './App.css';
 import Poster from './Components/Poster';
 import NavBar from './Components/Nav/NavBar'
 import BackToTopButton from './Components/BackToTopButton';
+import SideBar from './Components/SideBar';
 
 
 function App() {
