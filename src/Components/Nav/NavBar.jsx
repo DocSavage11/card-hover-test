@@ -19,7 +19,7 @@ const NavBar = () => {
 
 
   const revealOnClick = () => {
-      setReveal((prevState) => !prevState)
+    setReveal((prevState) => !prevState)
   }
   
 
